@@ -1,0 +1,27 @@
+.navBar {
+  height: 75px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  height: 1000px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-left-btn-group {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-left-btn-group > li {
+  padding: 10px;
+}
+
+.selected {
+  color: blue;
+}
