@@ -1,22 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Tweet from './tweet';
+import {tweets} from './application-data';
 
-class stream extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Tweets?</h1>
-        <ul>
-          {this.props.tweets.map((tweets) => {
-            return (
-              <li>
-                <h3>{tweets.text}</h3>
-                </li>
-              );
-            })}
-          </ul>
-      </div>
-    );
-  }
-}
-
-export default stream;
+export default (props) => {
+  return (
+    <ul className="tweet-stream">
+      {tweets.map((tweet, i) => {
+        return <Tweet key={i} tweetObject={tweet}/>;
+    })}
+    </ul>
+  );
+};

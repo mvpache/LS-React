@@ -10,7 +10,6 @@
   height: 1000px;
   background-color: whitesmoke;
   display: flex;
-  justify-content: center;
 }
 
 .navbar-left-btn-group {
@@ -24,4 +23,31 @@
 
 .selected {
   color: blue;
+}
+
+.navbar-right-btn-group {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-right-btn-group > li {
+  padding:10px
+}
+
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.user-info {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.profile-photo {
+  height: 150px;
+  width: 150px;
 }

@@ -4,6 +4,9 @@ const userData = {
   handle: '@LambdaSchool',
   location: 'San Francisco, CA',
   bio: 'On a mission to make switching careers risk-free. Money-back guarantee that you\'ll get a job',
+  website: 'lambdaschool.com',
+  joined: 'Joined May 2016',
+  birthday: 'Born on August 02',
 };
 
 const tweets = [
